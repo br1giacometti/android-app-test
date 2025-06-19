@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Gestor de Mascotas</string>
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_my_pets">Mis Mascotas</string>
+    <string name="nav_profile">Perfil</string>
+    
+    <!-- Authentication -->
+    <string name="warning_upper">¡ADVERTENCIA!</string>
+    <string name="accept">Aceptar</string>
+    <string name="attribute_missing">Falta un atributo</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="signup">Registrarse</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="passwordHint">Contraseña</string>
+    <string name="loginBtn">Iniciar sesión</string>
+    <string name="signupBtn">Registrarse</string>
+    <string name="logout">Cerrar sesión</string>
+    
+    <!-- Pet Management -->
+    <string name="add_pet">Añadir Mascota</string>
+    <string name="edit_pet">Editar Mascota</string>
+    <string name="delete_pet">Eliminar Mascota</string>
+    <string name="pet_name">Nombre de la Mascota</string>
+    <string name="pet_type">Tipo de Mascota</string>
+    <string name="pet_breed">Raza</string>
+    <string name="pet_age">Edad</string>
+    <string name="pet_weight">Peso (kg)</string>
+    <string name="pet_color">Color</string>
+    <string name="pet_description">Descripción</string>
+    <string name="pet_owner">Email del Propietario</string>
+    <string name="pet_phone">Teléfono</string>
+    <string name="pet_address">Dirección</string>
+    <string name="pet_vaccinated">Vacunado</string>
+    <string name="pet_neutered">Esterilizado</string>
+    
+    <!-- Pet Types -->
+    <string name="pet_type_dog">Perro</string>
+    <string name="pet_type_cat">Gato</string>
+    <string name="pet_type_bird">Pájaro</string>
+    <string name="pet_type_fish">Pez</string>
+    <string name="pet_type_other">Otro</string>
+    
+    <!-- Actions -->
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="share">Compartir</string>
+    <string name="filter">Filtrar</string>
+    <string name="all_pets">Todas las Mascotas</string>
+    <string name="my_pets">Mis Mascotas</string>
+    
+    <!-- Messages -->
+    <string name="pet_added_successfully">¡Mascota añadida exitosamente!</string>
+    <string name="pet_updated_successfully">¡Mascota actualizada exitosamente!</string>
+    <string name="pet_deleted_successfully">¡Mascota eliminada exitosamente!</string>
+    <string name="confirm_delete_pet">¿Estás seguro de que quieres eliminar esta mascota?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="share_pet_message">¡Mira mi mascota: %1$s</string>
+    
+    <!-- Validation Messages -->
+    <string name="error_name_required">El nombre es obligatorio</string>
+    <string name="error_type_required">El tipo de mascota es obligatorio</string>
+    <string name="error_age_invalid">La edad debe ser un número positivo</string>
+    <string name="error_weight_invalid">El peso debe ser un número positivo</string>
+    <string name="error_phone_invalid">El número de teléfono no es válido</string>
+    <string name="error_email_invalid">El correo electrónico no es válido</string>
+    
+    <!-- Profile -->
+    <string name="profile_title">Perfil</string>
+    <string name="user_name">Nombre</string>
+    <string name="user_phone">Teléfono</string>
+    <string name="user_address">Dirección</string>
+    <string name="update_profile">Actualizar Perfil</string>
+    
+    <!-- Home -->
+    <string name="welcome_message">¡Bienvenido al Gestor de Mascotas!</string>
+    <string name="total_pets">Total de Mascotas: %1$d</string>
+    <string name="my_pets_count">Mis Mascotas: %1$d</string>
+</resources> 

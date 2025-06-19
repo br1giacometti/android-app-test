@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Pet Manager</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_my_pets">My Pets</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Authentication -->
+    <string name="warning_upper">WARNING!</string>
+    <string name="accept">Accept</string>
+    <string name="attribute_missing">There\'s a missing attribute</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="passwordHint">Password</string>
+    <string name="loginBtn">Login</string>
+    <string name="signupBtn">Sign Up</string>
+    <string name="logout">Logout</string>
+    
+    <!-- Pet Management -->
+    <string name="add_pet">Add Pet</string>
+    <string name="edit_pet">Edit Pet</string>
+    <string name="delete_pet">Delete Pet</string>
+    <string name="pet_name">Pet Name</string>
+    <string name="pet_type">Pet Type</string>
+    <string name="pet_breed">Breed</string>
+    <string name="pet_age">Age</string>
+    <string name="pet_weight">Weight (kg)</string>
+    <string name="pet_color">Color</string>
+    <string name="pet_description">Description</string>
+    <string name="pet_owner">Owner Email</string>
+    <string name="pet_phone">Phone</string>
+    <string name="pet_address">Address</string>
+    <string name="pet_vaccinated">Vaccinated</string>
+    <string name="pet_neutered">Neutered</string>
+    
+    <!-- Pet Types -->
+    <string name="pet_type_dog">Dog</string>
+    <string name="pet_type_cat">Cat</string>
+    <string name="pet_type_bird">Bird</string>
+    <string name="pet_type_fish">Fish</string>
+    <string name="pet_type_other">Other</string>
+    
+    <!-- Actions -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="share">Share</string>
+    <string name="filter">Filter</string>
+    <string name="all_pets">All Pets</string>
+    <string name="my_pets">My Pets</string>
+    
+    <!-- Messages -->
+    <string name="pet_added_successfully">Pet added successfully!</string>
+    <string name="pet_updated_successfully">Pet updated successfully!</string>
+    <string name="pet_deleted_successfully">Pet deleted successfully!</string>
+    <string name="confirm_delete_pet">Are you sure you want to delete this pet?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="share_pet_message">Check out my pet: %1$s</string>
+    
+    <!-- Validation Messages -->
+    <string name="error_name_required">Name is required</string>
+    <string name="error_type_required">Pet type is required</string>
+    <string name="error_age_invalid">Age must be a positive number</string>
+    <string name="error_weight_invalid">Weight must be a positive number</string>
+    <string name="error_phone_invalid">Phone number is invalid</string>
+    <string name="error_email_invalid">Email is invalid</string>
+    
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="user_name">Name</string>
+    <string name="user_phone">Phone</string>
+    <string name="user_address">Address</string>
+    <string name="update_profile">Update Profile</string>
+    
+    <!-- Home -->
+    <string name="welcome_message">Welcome to Pet Manager!</string>
+    <string name="total_pets">Total Pets: %1$d</string>
+    <string name="my_pets_count">My Pets: %1$d</string>
+</resources>

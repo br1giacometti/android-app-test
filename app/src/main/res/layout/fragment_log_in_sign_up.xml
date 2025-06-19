@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pet_background"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:textColor="@color/pet_primary"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="32dp"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            style="@style/CardStyle">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:padding="24dp">
+                
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login"
+                    android:id="@+id/loginText"
+                    android:textSize="36sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/pet_primary"
+                    android:layout_marginBottom="24dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/username"
+                    android:background="@drawable/custom_edittext"
+                    android:drawableStart="@drawable/baseline_person_24"
+                    android:drawablePadding="8dp"
+                    android:textColorHint="@color/pet_text_hint"
+                    android:hint="@string/username"
+                    android:padding="8dp"
+                    android:textColor="@color/pet_text"
+                    android:layout_marginBottom="16dp"
+                    android:inputType="textEmailAddress"/>
+                    
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/password"
+                    android:background="@drawable/custom_edittext"
+                    android:drawableStart="@drawable/baseline_lock_24"
+                    android:drawablePadding="8dp"
+                    android:hint="@string/passwordHint"
+                    android:textColorHint="@color/pet_text_hint"
+                    android:padding="8dp"
+                    android:inputType="textPassword"
+                    android:textColor="@color/pet_text"
+                    android:layout_marginBottom="24dp"/>
+                    
+                <Button
+                    android:id="@+id/loginButton"
+                    android:text="@string/loginBtn"
+                    style="@style/CustomButton" />
+                    
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:id="@+id/SignUpButton"
+                    android:text="@string/signupBtn"
+                    android:textSize="18sp"
+                    android:textColor="@color/pet_primary"
+                    android:background="@drawable/button_border"
+                    android:layout_marginTop="16dp" />
+                    
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</ScrollView>
+
